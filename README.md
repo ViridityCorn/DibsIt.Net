@@ -11,7 +11,7 @@ P
 ### Hierarki
 Produktet har den funktion, at det understøtter implementationen af et hierarki 
 
-Computarum Booking kan deles op i forskellige hierarkier. Dette vil gøre at nogle personer kan overbooke materialer enten hele tiden eller kun i perioder, som f.eks eksamensperioder. 
+Computarum Booking kan deles op i forskellige hierarkier. Dette vil gøre at nogle personer kan overbooke materialer enten hele tiden eller kun i perioder, som f.eks eksamensperioder. asd
 Hvis man f.eks tager udgangspunkt i en skole vil 1.G, 2.G og 3.G ligge på det laveste trin, i det midterste trin vil lærerne være og højest er administrationen, hvis der ikke er defineret en speciel periode. Men samtidigt vil man kunne definere perioder, som f.eks eksamensperiode hvor det laveste trin f.eks være 1.G, dernæst 2.G, så 3.G, derefter lærerne og administrationen vil stadig være højest i hierarkiet. 
 
 ### Skalérbart
