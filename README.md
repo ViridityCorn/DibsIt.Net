@@ -6,10 +6,7 @@ Formålet med produktet er, at løse eventuelle vanskeligheder som diverse firma
 Produktet vil desuden være meget intuitivt, hvilket gør, at brugerne hurtigt vil føle sig komfortable med det. Derudover kan produktet let tilpasses de problemer, det står overfor, således at det kan bruges til næsten enhver situation.
 
 ## Hvad kan Computarum Booking?
-Produktet er først og fremmest et bookingsystem designet til at kunne booke materialer.
-Derudover har det indbygget understøttelse for et hierarki-system, således at nogle brugere har højere prioritet, og derfor kan “overbooke” et allerede booket materiale.
-
-Produktet kan desuden tilpasses og skaléres til enhver booking-situation, så at det præcist opnår kundens behov.
+il enhver booking-situation, så at det præcist opnår kundens behov.
 
 ### Hierarki
 Produktet har den funktion, at det understøtter implementationen af et hierarki 
