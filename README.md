@@ -1,4 +1,4 @@
-# ComputarumBooking - Teknisk Dokument
+﻿# ComputarumBooking - Teknisk Dokument
 Computarum Booking (fremover “produkt”) er et IT system, der kan bruges til, at booke lokaler, maskiner osv (fremover “materialer”).
 
 Formålet med produktet er, at løse eventuelle vanskeligheder som diverse firmaer kan have, ved bookning af materialer. Disse vanskeligheder kan f.eks. være, at firmaet i forvejen ikke har et system til booking, at det er tidskrævende for ansatte at booke lokaler eller at der ofte er flere, der booker det samme på samme tid.
@@ -6,10 +6,7 @@ Formålet med produktet er, at løse eventuelle vanskeligheder som diverse firma
 Produktet vil desuden være meget intuitivt, hvilket gør, at brugerne hurtigt vil føle sig komfortable med det. Derudover kan produktet let tilpasses de problemer, det står overfor, således at det kan bruges til næsten enhver situation.
 
 ## Hvad kan Computarum Booking?
-Produktet er først og fremmest et bookingsystem designet til at kunne booke materialer.
-Derudover har det indbygget understøttelse for et hierarki-system, således at nogle brugere har højere prioritet, og derfor kan “overbooke” et allerede booket materiale.
-
-Produktet kan desuden tilpasses og skaléres til enhver booking-situation, så at det præcist opnår kundens behov.
+P
 
 ### Hierarki
 Produktet har den funktion, at det understøtter implementationen af et hierarki 
