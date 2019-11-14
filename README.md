@@ -9,10 +9,10 @@ Produktet vil desuden være meget intuitivt, hvilket gør, at brugerne hurtigt v
 P
 
 ### Hierarki
-Produktet har den funktion, at det understøtter implementationen af et hierarki 
+Produktet har den funktion, at det understøtter implementationen af et hierarki. Dvs. at visse personer kan overbooke materialer, hvis de har rettighederne til det.
+Et eksempel på dette er, hvis produktet bruges til lokalebooking på et gymnasie. Her kan det implementeres, at lærere altid kan overbooke elever, og at 3.g’ere kan overbooke 2. og 3.g’ere i eksamensperioder.
 
-Computarum Booking kan deles op i forskellige hierarkier. Dette vil gøre at nogle personer kan overbooke materialer enten hele tiden eller kun i perioder, som f.eks eksamensperioder. asd
-Hvis man f.eks tager udgangspunkt i en skole vil 1.G, 2.G og 3.G ligge på det laveste trin, i det midterste trin vil lærerne være og højest er administrationen, hvis der ikke er defineret en speciel periode. Men samtidigt vil man kunne definere perioder, som f.eks eksamensperiode hvor det laveste trin f.eks være 1.G, dernæst 2.G, så 3.G, derefter lærerne og administrationen vil stadig være højest i hierarkiet. 
+Dette koncept kan tilpasses, så det passer til kundens behov, og løser de problematikker, som kunde måtte have.
 
 ### Skalérbart
 Produktet er skalèrbart, dvs. at det kan tilpasses forskellige situationer, så kunderne får mest muligt ud af det. Produktet vil have samme overflade, men der vil være mulighed for at ændre i hvilke materialer som kan bookes, samt hvordan hierarkiet hænger sammen. Derudover kan produktet udvides, så det er muligt at booke forskellige materialer, for det pågældende sted. 
