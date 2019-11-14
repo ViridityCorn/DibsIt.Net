@@ -7,6 +7,11 @@ Produktet vil desuden være meget intuitivt, hvilket gør, at brugerne hurtigt v
 
 ## Hvad kan Computarum Booking?
 P
+## Hvad kan Computarum Booking?asd
+Produktet er først og fremmest et bookingsystem designet til at kunne booke materialer.
+Derudover har det indbygget understøttelse for et hierarki-system, således at nogle brugere har højere prioritet, og derfor kan “overbooke” et allerede booket materiale.
+
+Produktet kan desuden tilpasses og skaléres til enhver booking-situation, så at det præcist opnår kundens behov.
 
 ### Hierarki
 Produktet har den funktion, at det understøtter implementationen af et hierarki. Dvs. at visse personer kan overbooke materialer, hvis de har rettighederne til det.
