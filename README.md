@@ -41,8 +41,11 @@ I midten af brugerinterfacet er der placeret et skema. Dette skema viser en uge 
 Hver gang man vælger et materiale i listen i venstre side, vil materialets skema blive vist i midten. I skemaet kan man se, hvornår materialet er booket.
 
 ##### Bookingknap
+I højre side af skærmen findes modulet til at foretage bookingen.
+Her vælger brugeren datoen og tidsrummet, som brugeren gerne vil booke materialet i. Derudover kan brugeren også skrive en kort besked, der kommer til at stå på materialets skema ved siden af brugerens navn.
 
 #### Administrationsside
+På administrationssiden kan administratoren indstille mange parametre, der tilpasser produktet til kundens behov.
 
 ## Hvordan fungerer det?
 ### Login
