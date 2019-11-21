@@ -1,3 +1,5 @@
+<?php header("Location: ../users/Template/booking.php"); ?>
+
 <!DOCTYPE html>
 <html>
 
