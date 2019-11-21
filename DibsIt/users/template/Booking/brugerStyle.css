@@ -1,0 +1,219 @@
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  background-color: #00CED1
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav{
+
+  height: 300px;
+  width: 150px;
+  float: left;
+
+  background-color: #FFFF;
+
+  border-radius: 8px 8px 8px 8px;
+
+  position: absolute;
+  left: 2px;
+  top: 200px;
+
+}
+
+#nav ul{
+
+  list-style-type: none;
+  float: left;
+
+}
+
+
+
+nav {
+width: 100%;
+height: 60px;
+background-color: #FFFF;
+}
+
+nav p {
+  font-family: arial;
+  color: #222;
+  font-size: 22px;
+
+  line-height: 55px;
+  float: left;
+
+  padding: 0px 20px;
+}
+
+nav button{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 10px;
+
+  background-color: #00CED1;
+  border: none;
+
+  font-family: arial;
+  color: #222;
+  font-size: 15px;
+}
+
+#nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+#nav ul li a{
+display: block;
+
+  font-family: arial;
+  color: #222;
+  font-size: 14px;
+padding: 22px 14px;
+
+text-decoration: none;
+}
+
+#nav ul li ul{
+display: none;
+position: block;
+
+background-color: #FFFF;
+padding: 1px;
+border-radius: 0px 0px 5px 5px;
+}
+
+#nav ul li:hover ul{
+display: block;
+background-color: #B0C4DE
+}
+
+
+#nav ul li ul li{
+width: 90px;
+border-radius: 5px;
+}
+
+#nav ul li ul li a{
+padding: 8px 14px;
+}
+
+#nav li ul{
+  position: absolute;
+  z-index: 100;
+  background-color: #8B0000
+}
+
+#nav ul li ul li a:hover{
+background-color: #A9A9A9
+}
+
+#nav p{
+  font-family: arial;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+
+  line-height: 55px;
+  float: left;
+
+  padding: 0px 28px;
+}
+
+.search-bar{
+  position: absolute;
+  top: 120px;
+  left: 2px;
+  background: #FFFF;
+  height: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.search-input{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 240px;
+}
+
+/*.search-btn{
+  color: #FF1493;
+  float:right;
+  width: 30px;
+  height: 30px;
+border-radius: 50%;
+background: #B22222;
+
+
+}
+*/
+
+/*
+
+nav ul {
+  float: left;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a{
+display: block;
+
+  font-family: arial;
+  color: #222;
+  font-size: 14px;
+padding: 22px 14px;
+
+text-decoration: none;
+}
+
+nav ul li ul{
+display: none;
+position: absolute;
+
+background-color: #FFFF;
+padding: 2px;
+border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li:hover ul{
+display: block;
+}
+
+
+nav ul li ul li{
+width: 90px;
+border-radius: 5px;
+}
+
+nav ul li ul li a{
+padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+background-color: #f3f3f3
+}
+
+*/
