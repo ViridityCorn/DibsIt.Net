@@ -23,8 +23,8 @@ a{
   border-radius: 8px 8px 8px 8px;
 
   position: absolute;
-  left: 60px;
-  top: 120px;
+  left: 2px;
+  top: 200px;
 
 }
 
@@ -133,8 +133,8 @@ background-color: #A9A9A9
 
 .search-bar{
   position: absolute;
-  top: 70px;
-  left: 60px;
+  top: 120px;
+  left: 2px;
   background: #FFFF;
   height: 20px;
   border-radius: 20px;
