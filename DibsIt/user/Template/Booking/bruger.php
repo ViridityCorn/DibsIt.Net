@@ -11,9 +11,14 @@
 		<nav>
 			<p>Computarum Booking</p>
 
+			<button type="button" >Log ind</button>
+
 		</nav>
 
+
+
 		<div id="nav">
+			<p>Materialer</p>
 
 			<ul>
 				<li><a href ="#">Lokaler</a>
@@ -30,6 +35,13 @@
 			</ul>
 
 
+		 </div>
+
+		 <div class = "search-bar">
+			 <input class="search-input" type = "text" name=""placeholder="Søg">
+			 <a class = "search-btn" href = "#">
+
+			 </a>
 		 </div>
 
 	</body>

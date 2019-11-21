@@ -5,7 +5,7 @@
 
 body{
 
-  background-color: #87CEFA
+  background-color: #00CED1
 }
 
 a{
@@ -14,14 +14,17 @@ a{
 
 #nav{
 
-  height: 250px;
+  height: 300px;
   width: 150px;
   float: left;
 
   background-color: #FFFF;
 
-  border-radius: 0px 0px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
 
+  position: absolute;
+  left: 60px;
+  top: 120px;
 
 }
 
@@ -51,6 +54,20 @@ nav p {
   padding: 0px 20px;
 }
 
+nav button{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 10px;
+
+  background-color: #00CED1;
+  border: none;
+
+  font-family: arial;
+  color: #222;
+  font-size: 15px;
+}
+
 #nav ul li{
   float: left;
   list-style: none;
@@ -73,12 +90,13 @@ display: none;
 position: block;
 
 background-color: #FFFF;
-padding: 2px;
+padding: 1px;
 border-radius: 0px 0px 5px 5px;
 }
 
 #nav ul li:hover ul{
 display: block;
+background-color: #B0C4DE
 }
 
 
@@ -94,7 +112,59 @@ padding: 8px 14px;
 #nav li ul{
   position: absolute;
   z-index: 100;
+  background-color: #8B0000
 }
+
+#nav ul li ul li a:hover{
+background-color: #A9A9A9
+}
+
+#nav p{
+  font-family: arial;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+
+  line-height: 55px;
+  float: left;
+
+  padding: 0px 28px;
+}
+
+.search-bar{
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  background: #FFFF;
+  height: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.search-input{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 240px;
+}
+
+/*.search-btn{
+  color: #FF1493;
+  float:right;
+  width: 30px;
+  height: 30px;
+border-radius: 50%;
+background: #B22222;
+
+
+}
+*/
 
 /*
 
