@@ -1,1 +1,1 @@
-<?php header("Location: System/login.php"); ?>
+<?php header("Location: users/template/brugerside.php"); ?>
