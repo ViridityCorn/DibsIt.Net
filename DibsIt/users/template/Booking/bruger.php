@@ -3,10 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
-<link rel="stylesheet" type="text/css" href="brugerStyle.css">
+<link rel="stylesheet" type="text/css" href="brugerStyle.css" />
+<link href="calendar.css"type="text/css"rel="stylesheet" />
+
 
 	</head>
 	<body>
+<?php
+include ('calendar.php');
+$calendar = new calendar();
+echo $calendar -> show();
+?>
 
 		<nav>
 			<p>Computarum Booking</p>
@@ -42,6 +49,28 @@
 			 <a class = "search-btn" href = "#">
 
 			 </a>
+		 </div>
+
+		 <div id="datetime">
+			 <p>Dato & Tid</p>
+
+			 <ul>
+ 				<li><a href ="#">Dato</a>
+ 							<ul>
+ 								<li><a href = "#">Mandag</a></li>
+ 								<li><a href = "#">Tirsdag</a></li>
+ 								<li><a href = "#">Onsdag</a></li>
+ 								<li><a href = "#">Torsdag</a></li>
+								<li><a href = "#">Fredag</a></li>
+								<li><a href = "#">Lørdag</a></li>
+								<li><a href = "#">Søndag</a></li>
+ 							</ul>
+ 				</li>
+ 					<li><a href ="#">StartTid</a>
+						<li><a href ="#">SlutTid</a>
+ 			</ul>
+
+
 		 </div>
 
 	</body>
