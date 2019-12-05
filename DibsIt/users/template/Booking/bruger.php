@@ -3,12 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<!--Her hentes de CSS stylesheets som styler selve brugerflades i bruger.php, og til kalenderen-->
 <link rel="stylesheet" type="text/css" href="brugerStyle.css" />
 <link href="calendar.css"type="text/css"rel="stylesheet" />
 
-
 	</head>
 	<body>
+		<!--Selve kalenderen hentes fra et andet php dokument-->
 <?php
 include ('calendar.php');
 $calendar = new calendar();
@@ -16,17 +17,20 @@ echo $calendar -> show();
 ?>
 
 		<nav>
-			<p>Computarum Booking</p>
+			<!--Logoet øverst-->
+		<img src="dibsitLogo.png">
 
-			<button type="button" >Log ind</button>
+			<!--Knappen som sender brugeren til login siden-->
+			<button type="button" onclick="location.href='../../../System/loginPage.php'">Log ud</button>
 
 		</nav>
 
 
-
+		<!--Navigationsbaren til venstre-->
 		<div id="nav">
 			<p>Materialer</p>
 
+			<!--Dropdown menuen defineres-->
 			<ul>
 				<li><a href ="#">Lokaler</a>
 							<ul>
@@ -44,12 +48,16 @@ echo $calendar -> show();
 
 		 </div>
 
+		 <!--Her defineres søgefeltet-->
+
 		 <div class = "search-bar">
 			 <input class="search-input" type = "text" name=""placeholder="Søg">
 			 <a class = "search-btn" href = "#">
 
 			 </a>
 		 </div>
+
+		 <!--Dato & Tid skitsen til højre-->
 
 		 <div id="datetime">
 			 <p>Dato & Tid</p>

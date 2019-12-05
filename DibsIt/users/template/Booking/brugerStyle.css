@@ -4,8 +4,9 @@
 }
 
 body{
+  /*Baggrundsfarven defineres*/
 
-  background-color: #00CED1
+  background-color: #00d1b2
 }
 
 a{
@@ -13,6 +14,7 @@ a{
 }
 
 #nav{
+    /*Navigationsbaren til */
 
   height: 300px;
   width: 150px;
@@ -20,6 +22,7 @@ a{
 
   background-color: #FFFF;
 
+  /*Afrundede hjørner */
   border-radius: 8px 8px 8px 8px;
 
   position: absolute;
@@ -36,7 +39,7 @@ a{
 }
 
 
-
+/*Den øverste nav bar*/
 nav {
 width: 100%;
 height: 60px;
@@ -45,25 +48,22 @@ position: absolute;
 top: 0px;
 }
 
-nav p {
-  font-family: arial;
-  color: #222;
-  font-size: 22px;
-  font-weight: bold;
 
-  line-height: 55px;
-  float: left;
+/*Størrelse og placering af logoet*/
+nav img{
+height: 40px;
+padding: 12px 12px;
 
-  padding: 0px 20px;
 }
 
+/*Login knappen*/
 nav button{
   position: absolute;
   right: 10px;
   top: 10px;
   padding: 10px;
 
-  background-color: #00CED1;
+  background-color: #00d1b2;
   border: none;
   border-radius: 5px;
 
@@ -72,12 +72,14 @@ nav button{
   font-size: 15px;
 }
 
+/*Dropdown menuen*/
 #nav ul li{
   float: left;
   list-style: none;
   position: relative;
 }
 
+/*Den øverste nav bar*/
 #nav ul li a{
 display: block;
 
@@ -253,67 +255,3 @@ padding: 8px 14px;
 #datetime ul li ul li a:hover{
 background-color: #A9A9A9
 }
-
-/*.search-btn{
-  color: #FF1493;
-  float:right;
-  width: 30px;
-  height: 30px;
-border-radius: 50%;
-background: #B22222;
-
-
-}
-*/
-
-/*
-
-nav ul {
-  float: left;
-}
-
-nav ul li{
-  float: left;
-  list-style: none;
-  position: relative;
-}
-
-nav ul li a{
-display: block;
-
-  font-family: arial;
-  color: #222;
-  font-size: 14px;
-padding: 22px 14px;
-
-text-decoration: none;
-}
-
-nav ul li ul{
-display: none;
-position: absolute;
-
-background-color: #FFFF;
-padding: 2px;
-border-radius: 0px 0px 5px 5px;
-}
-
-nav ul li:hover ul{
-display: block;
-}
-
-
-nav ul li ul li{
-width: 90px;
-border-radius: 5px;
-}
-
-nav ul li ul li a{
-padding: 8px 14px;
-}
-
-nav ul li ul li a:hover{
-background-color: #f3f3f3
-}
-
-*/
